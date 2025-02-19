@@ -41,26 +41,6 @@ Other Technologies:
 Redis (Session management)
 Docker (For deployment)
 Project Structure
-bash
-Copy
-Edit
-/backend
- ├── index.js  # Main entry point
- ├── config/   # Database & env configs
- ├── controllers/  # API logic
- ├── models/   # Mongoose Schemas
- ├── routes/   # Express Routes
- ├── middleware/  # Auth & error handling
- ├── utils/  # Utility functions
- ├── package.json
-
-/client
- ├── src/
- │   ├── components/  # UI Components
- │   ├── pages/  # Routes (Dashboard, Login, etc.)
- │   ├── App.js  # Main React app
- │   ├── index.js  # Entry point
- ├── package.json
 Features & API Endpoints
 1️⃣ Authentication
 Route	Method	Description
